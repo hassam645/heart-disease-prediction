@@ -1,0 +1,83 @@
+# ❤️ Heart Disease Prediction Project
+
+## 📌 Data Preprocessing
+
+Data preprocessing is a crucial step in this project to ensure high model performance and reliable predictions. The following preprocessing techniques were applied to the Heart Disease dataset.
+
+---
+
+### ✅ 1. Data Loading
+
+The dataset was imported using **Pandas** and inspected to understand its structure, features, and data types.
+
+* Checked dataset shape
+* Viewed sample records
+* Verified column information
+
+---
+
+### ✅ 2. Data Cleaning
+
+Data quality was verified before model training.
+
+* Checked for missing values using `isnull()`
+* Verified data types
+* Removed duplicate records if present
+
+---
+
+### ✅ 3. Feature and Target Separation
+
+The dataset was divided into:
+
+* **Features (X):** All medical attributes
+* **Target (y):** Heart disease presence (`target` column)
+
+---
+
+### ✅ 4. Train–Test Split
+
+The dataset was divided into training and testing sets:
+
+* **80% Training Data**
+* **20% Testing Data**
+
+This ensures unbiased model evaluation.
+
+---
+
+### ✅ 5. Feature Scaling
+
+Feature scaling was applied using **StandardScaler** to normalize numerical values.
+
+* Scaling fitted only on training data
+* Testing data transformed using the same scaler
+* Prevented data leakage
+
+---
+
+### ✅ 6. Outlier Detection (Optional)
+
+Boxplots were used to visually inspect extreme values in medical features.
+
+---
+
+### ✅ 7. Class Distribution Check
+
+The distribution of heart disease classes was analyzed to ensure balanced learning.
+
+---
+
+### 📊 Preprocessing Outcome
+
+After preprocessing:
+
+* Dataset cleaned and standardized
+* Features normalized
+* Data ready for machine learning model training
+
+---
+
+👨‍💻 **Author:** Hassam bin Shahid
+BS Information Technology
+University of Education Lahore (Multan Campus)
